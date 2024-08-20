@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heftris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="game-board"></canvas>
+        <div class="info-panel">
+            <div id="score">Score: 0</div>
+            <div id="level">Level: 1</div>
+            <div id="next-piece">Next:</div>
+        </div>
+    </div>
+    <div id="menu" class="menu">
+        <h1>Heftris</h1>
+        <button id="new-game">New Game</button>
+        <button id="continue-game" style="display: none;">Continue Game</button>
+        <button id="about">About</button>
+    </div>
+    <div id="about-page" class="about-page">
+        <h2>About Heftris</h2>
+        <p>This is a colorful version of the classic Tetris game with pulsing effects and sounds.</p>
+        <p>Use arrow keys to move and rotate pieces. Press space to drop instantly.</p>
+        <p>Press Esc to pause the game and access the menu.</p>
+        <button id="back-to-menu">Back to Menu</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
